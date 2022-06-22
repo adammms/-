@@ -15,7 +15,7 @@
   --color: #eaeaea;
   --light-color: #eaeaeaa4;
   --primary-color: #08d9d6;
-  --secondary-color: #ff2e63;
+  --secondary-color: #003ecb;
   --font: 'Crimson Text', serif;
   --secondary-font: 'Work Sans', sans-serif;
 }
@@ -128,16 +128,16 @@ body {
   position: absolute;
   width: 20em;
   height: 20em;
-  background: #8e2de2; /* fallback for old browsers */
+  background: #8e02de; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #4a00e0,
-    #8e2de2
+    #f8ec34,
+    #003ecb
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #4a00e0,
-    #8e2de2
+    #003ecb,
+    #f8ec34
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 50%;
 }
@@ -148,16 +148,16 @@ body {
 .skills::after {
   right: -10em;
   top: 8em;
-  background: #f953c6; /* fallback for old browsers */
+  background: #003ecb; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #b91d73,
-    #f953c6
+    #003ecb,
+    #f8ec34
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #b91d73,
-    #f953c6
+    #003ecb,
+    #f8ec34
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .skill_box {
@@ -219,16 +219,16 @@ body {
   position: absolute;
   width: 20em;
   height: 20em;
-  background: #f953c6; 
+  background: #003ecb
   background: -webkit-linear-gradient(
     to right,
-    #b91d73,
-    #f953c6
+    #f8ec34,
+    #f8ec34
   ); 
   background: linear-gradient(
     to right,
-    #b91d73,
-    #f953c6
+    #f8ec34,
+    #003ecb
   ); 
   border-radius: 50%;
 }
@@ -239,16 +239,16 @@ body {
 .projects::after {
   right: -10em;
   top: 8em;
-  background: #8e2de2; 
+  background: #003ecb; 
   background: -webkit-linear-gradient(
     to right,
-    #4a00e0,
-    #8e2de2
+    #f8ec34,
+    #f8ec34
   ); 
   background: linear-gradient(
     to right,
-    #4a00e0,
-    #8e2de2
+    #f8ec34,
+    #003ecb
   ); 
 }
 .projects .project_heading {
@@ -333,7 +333,7 @@ footer .social_media_icons a i{
 footer .social_media_icons a:hover i{
     font-size: 1.8em;
     padding: 0.2em;
-    color: rgba(54, 54, 54, 0.966);
+    color: rgba(0, 87, 238, 0.966);
 }
 
 
@@ -417,15 +417,15 @@ footer .social_media_icons a:hover i{
     height: 8em;
   }
   .skill_head {
-    font-size: 5em;
+    font-size: 4em;
     font-family: var(--font);
   }
   .about_heading {
-    font-size: 5em;
+    font-size: 4em;
     font-family: var(--font);
   }
   .projects .project_heading {
-    margin-bottom: 0.4em;
+    margin-bottom: 0.9em;
     font-size: 5em;
     font-family: var(--font);
   }
@@ -440,7 +440,7 @@ footer .social_media_icons a:hover i{
     height: 8em;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   #main .user_img img{
     width: 20em;
     height: 20em;
@@ -453,7 +453,7 @@ footer .social_media_icons a:hover i{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    padding: 2em 0.2em;
+    padding: 4em 0.3em;
   }
 }
 
